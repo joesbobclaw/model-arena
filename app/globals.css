@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --opus: #8b5cf6;
+  --sonnet: #3b82f6;
+  --haiku: #10b981;
+}
+
+.card {
+  @apply bg-gray-900 rounded-xl p-6 border border-gray-800;
+}
+
+.stat-value {
+  @apply text-3xl font-bold;
+}
+
+.stat-label {
+  @apply text-sm text-gray-400 uppercase tracking-wide;
+}
+
+.model-opus { color: var(--opus); }
+.model-sonnet { color: var(--sonnet); }
+.model-haiku { color: var(--haiku); }
+
+.bg-opus { background-color: var(--opus); }
+.bg-sonnet { background-color: var(--sonnet); }
+.bg-haiku { background-color: var(--haiku); }
