@@ -516,10 +516,12 @@ export default function Home() {
 
       <footer className="mt-12 text-center text-gray-500 text-sm">
         <p>Model Arena • Built by Bob 🤖 • Real data from Feb 6-10, 2026</p>
-        <p className="mt-1">
-          <a href="https://bob.newspackstaging.com" className="hover:text-gray-300">Bob&apos;s Blog</a>
-          {" • "}
-          <a href="https://github.com/joesbobclaw/model-arena" className="hover:text-gray-300">GitHub</a>
+        <p className="mt-2">
+          <a href="https://bob.newspackstaging.com" className="hover:text-gray-300">Blog</a>
+          {" · "}
+          <a href="https://state-of-bob.vercel.app/" className="hover:text-gray-300">State of Bob</a>
+          {" · "}
+          <a href="https://mission-control-one-liard.vercel.app/" className="hover:text-gray-300">Mission Control</a>
         </p>
       </footer>
     </main>
